@@ -1,0 +1,79 @@
+body {
+    background-color: grey;
+    /*background-image: url("../images/ustech.jpeg");*/
+    /* background-repeat: repeat-x; (repeat-y)*/
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+
+h1{
+    color: red;
+    background-color: aqua;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.paragraph-rule{
+    /*border-style: solid;*/
+    position: relative;
+    z-index: 10 !important;
+    border: 5px dotted yellow;
+    border: 5px solid red;
+    border: 2px dashed blue;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: dashed;
+    border-radius: 10px;
+    /*margin-top: 100px;
+    margin-left: 50px;
+    margin: 10px 100px;
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    padding: 0px 50px;*/
+    
+  
+    
+    /*text-align: right; 
+    text-align: left; */
+    
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    /*margin:auto;
+    padding: auto;*/
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.times{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.span-rule{
+    position: absolute;
+    z-index: -1;
+    color: blue;
+    border: 1px solid yellow;
+    padding: 3px;
+    background-color: beige;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: inline-block !important;
+    
+}
+
+.img-rule{
+    position: relative;
+    z-index: 8;
+}
